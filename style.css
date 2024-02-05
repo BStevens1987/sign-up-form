@@ -104,9 +104,13 @@ button {
   margin: 4% 4% 4% 4%;
 }
 
-/* button {
-
-} */
+button {
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: rgb(212, 0, 195);
+  color: white;
+  font-weight: bold;
+}
 
 a {
   color: rgb(212, 0, 195);
