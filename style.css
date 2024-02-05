@@ -84,6 +84,16 @@ input {
   margin: 4% 4% 4% 3%;
  }
 
+input {
+  border: 1px solid #E5E7EB;
+}
+
+input:focus {
+  box-shadow: 2px 2px 2px rgb(212, 0, 195);
+  border: 1.5px solid rgb(212, 0, 195);
+  outline: none;
+}
+
 .bottom {
   background-color: rgb(164, 197, 219);
   height: 33%;
