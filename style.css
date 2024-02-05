@@ -42,7 +42,6 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  align-items: center;
   position: absolute;
   top: 5%;
   background-color: rgba(0, 0, 0, 0.473);
@@ -51,7 +50,6 @@ body {
 
 .icon {
   width: 20%;
-  height: 20%;
 }
 
 .text {
@@ -88,6 +86,7 @@ input {
 
 .bottom {
   background-color: rgb(164, 197, 219);
+  height: 33%;
 }
 
 .account,
