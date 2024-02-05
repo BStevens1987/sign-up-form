@@ -5,14 +5,48 @@
   font-style: normal;
 }
 
-body {
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  display: flex;
-}
-
 * {
   outline: 1px red solid;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.left-side {
+  position: relative;
+  width: 35%;
+  height: 100%;
+  background-image: url("images/computer.jpg");
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 5%;
+  background-color: rgba(0, 0, 0, 0.473);
+  opacity: 0.9;
+}
+
+.icon {
+  width: 20%;
+}
+
+.text {
+  font: 4rem "futuristic";
+  color: rgb(212, 0, 195);
+}
+
