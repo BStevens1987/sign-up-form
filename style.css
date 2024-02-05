@@ -6,7 +6,7 @@
 }
 
 * {
-  outline: 1px red solid;
+  /* outline: 1px red solid; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,6 +16,7 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
+  display: block;
 }
 
 html,
@@ -49,6 +50,7 @@ body {
 
 .icon {
   width: 20%;
+  height: 20%;
 }
 
 .text {
@@ -68,7 +70,21 @@ body {
   padding: 4% 4% 4% 4%;
 }
 
-h2 {
-  text-align: center;
+.title {
+  padding: 1% 1% 4% 4%;
 }
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 40% 4% 3%;
+}
+
+label,
+input {
+  margin: 4% 4% 4% 3%;
+ }
+
+
+
 
