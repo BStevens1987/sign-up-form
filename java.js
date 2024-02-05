@@ -1,5 +1,6 @@
 var passConfirm = function () {
-  if (document.getElementById("pass").value == document.getElementById("cpass").value) {
+  if (document.getElementById("pass").value == document.getElementById("cpass").value) 
+  {
     document.getElementById("message").style.color = "Green";
     document.getElementById("message").innerHTML = "Passwords match!";
   }
