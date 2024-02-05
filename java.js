@@ -8,4 +8,4 @@ var passConfirm = function () {
     document.getElementById("message").style.color = "Red";
     document.getElementById("message").innerHTML = "Passwords do NOT match!";
   }
-}
+};
