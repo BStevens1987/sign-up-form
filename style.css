@@ -50,3 +50,19 @@ body {
   color: rgb(212, 0, 195);
 }
 
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 100%;
+}
+
+.top {
+  background-color: rgb(164, 197, 219);
+  padding: 4% 4% 4% 4%;
+}
+
+h2 {
+  text-align: center;
+}
+
