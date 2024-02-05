@@ -1,1 +1,3 @@
 # sign-up-form
+
+Create an example sign-up form. Include an image on the left side of the page with an overlayed logo and text. Add three containers on the right. In the top container include text. In the middle container include a form with required entries. Include a validator for phone number. Also include a message to inform users if password matches the confirm password. In the bottom conatiner add a submit button and text.
