@@ -41,15 +41,16 @@
         </div>
         <div>
           <label for="phonenum">PHONE NUMBER</label>
-          <input type="tel" name="phonenum" id="phonenum" required>
+          <input type="tel" name="phonenum" id="phonenum" pattern="[a-zA-Z0-9]{3}[\-. ]?[a-zA-Z0-9]{3}[\-. ]?[a-zA-Z0-9]{4}" required>
         </div>
         <div>
           <label for="pass">PASSWORD</label>
-          <input type="password" name="pass" id="pass" required>
+          <input type="password" name="pass" id="pass" onkeyup='passConfirm();' required>
+          <span id="message"></span>
         </div>
         <div>
           <label for="cpass">CONFIRM PASSWORD</label>
-          <input type="password" name="cpass" id="cpass" required>
+          <input type="password" name="cpass" id="cpass" onkeyup='passConfirm();' required>
         </div>
       </form>
     </div>
